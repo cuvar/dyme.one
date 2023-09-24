@@ -3,9 +3,22 @@
     <meta charset="utf-8" />
     <link rel="icon" type="image/ico" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" />
     <title>Dyme</title>
   </head>
   <body class="bg-slate-950 w-screen min-h-screen max-h-fit text-zinc-100 py-10">
     <slot />
+    <script
+    defer
+    data-domain="dyme.one"
+    type="text/plain"
+    data-cookiecategory="analytics"
+    src="https://plausible.io/js/script.js"
+  ></script>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"
+  ></script>
+  <script defer src="cookieconsent-init.js"></script>
   </body>
 </html>
