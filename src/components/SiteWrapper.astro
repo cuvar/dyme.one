@@ -1,3 +1,7 @@
+---
+import Footer from './Footer.svelte'
+---
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -6,8 +10,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" />
     <title>Dyme</title>
   </head>
-  <body class="bg-slate-950 w-screen min-h-screen max-h-fit text-zinc-100 py-10">
+  <body class="bg-slate-950 w-screen min-h-screen max-h-fit text-zinc-100 py-10 px-10">
     <slot />
+    <Footer/>
     <script
     defer
     data-domain="dyme.one"
