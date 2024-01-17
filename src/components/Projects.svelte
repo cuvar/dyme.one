@@ -21,6 +21,12 @@
       url: "https://vocab.dyme.one",
       gh: "https://github.com/cuvar/vocab",
     },
+    {
+      name: "days-since-last-js-framework",
+      description: "A counter for days since last JavaScript framework release",
+      url: "https://dayssincelastjsframework.com/",
+      gh: "https://github.com/cuvar/days-since-js-framework",
+    },
   ];
 </script>
 
